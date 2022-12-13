@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.Container {
+    background-color: rgb(245,245,245);
+    width: 80%;
+    padding-bottom: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_Precio {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.container_C {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+input {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.c {    
+    background-color: white;
+    border-radius: 5px;
+    width: 50px;
+    padding: 10px 10px;
+    margin: 15px 0px 15px 10px;
+    text-align: center;
+}
+
+.container_Boton {
+    margin: 0 auto;
+}
+
