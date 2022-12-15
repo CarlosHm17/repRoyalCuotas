@@ -8,21 +8,29 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 header {
-    margin-bottom: 10px;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgb(245,245,245) 0px 1px 2px;    
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     width: 100%;
+    margin-bottom: 1px;
     padding: 20px;
     display: flex;
     justify-content: center;
 }
-
+main {
+    background-color: rgb(245,245,245);
+    max-width: 375px;
+    min-width: 320px;
+    padding-top: 20px;
+    height: 100vh;
+    margin: 0 auto;
+}
 .logo {
     width: 50px;
     position: absolute;
-    left: 25px;
+    left: 35px;
     top: 7px;
 }
 header h1 {
@@ -34,8 +42,13 @@ header h1 {
 
 .Container {
     width: 80%;
-    padding-bottom: 80%;
-    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.872);
+    width: 80%;
+    margin: 0 auto 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     display: flex;
     flex-direction: column;
 }
@@ -98,4 +111,51 @@ input {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 2px, rgba(0, 0, 0, 0.24) 0px 1px 3px;
 
 }
+
+
+
+.container_Ref {
+    background-color: rgba(255, 255, 255, 0.872);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.container_titulo_Ref {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.container_resultadoRef {
+    display: flex;
+    justify-content: space-around;
+}
+.resultadoRef {
+    background-color: rgb(245,245,245);
+    border-radius: 5px;
+    width: 60px;
+    padding: 10px 10px;
+    margin: 15px 0px 15px 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-bottom: 22px;
+}
+.container_R {
+    display: flex;
+    justify-content: space-around;
+}
+.r {
+    width: 15%;
+    margin-bottom: 15px;
+}
+.container_Boton_Dos {
+    display: flex;
+    justify-content: center;
+}
+
 

@@ -22,6 +22,21 @@ function resultadoMax() {
     downPayment.innerHTML = cuotaI;
 }
 
+var refUno = document.getElementById("referenciaUno");
+var refDos = document.getElementById("referenciaDos");
+var refTres = document.getElementById("referenciaTres");
+var refResul = document.getElementById("resultadoRef");
+boton_Ref.addEventListener("click", resultadoReferencia);
+
+function resultadoReferencia() {
+    var rU = Number(refUno.value);
+    var rD = Number(refDos.value);
+    var rT = Number(refTres.value);
+    var refTotal = rU + rD + rT;
+    refTotal = Math.ceil(refTotal);
+    resultadoRef.innerHTML = refTotal * 5;
+}
+
 
 
 
