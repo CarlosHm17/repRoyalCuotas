@@ -1,6 +1,7 @@
 var uno = document.getElementById("resultadoUno");
 var dos = document.getElementById("resultadoDos");
 var tres = document.getElementById("resultadoTres");
+var down = document.getElementById("downPayment");
 var usuario = document.getElementById("precio");
 boton_Max.addEventListener("click", resultadoMax);
 
@@ -16,6 +17,9 @@ function resultadoMax() {
     var tresR = usuario.value * 0.07;
     tresR = Math.ceil(tresR);
     resultadoTres.innerHTML = tresR;
+    var cuotaI = usuario.value * 0.10;
+    cuotaI = Math.ceil(cuotaI);
+    downPayment.innerHTML = cuotaI;
 }
 
 

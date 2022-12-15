@@ -18,11 +18,19 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.logo {
+    width: 50px;
+    position: absolute;
+    left: 25px;
+    top: 7px;
+}
 header h1 {
     color: #002270;
     font-size: 1.8em;
     font-weight: bold;
 }
+
 
 .Container {
     width: 80%;
@@ -66,6 +74,20 @@ input {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
+.container_DownPayment {
+    margin: 0 auto;
+}
+.downPayment {
+    background-color: rgb(245,245,245);
+    border-radius: 5px;
+    width: 70px;
+    padding: 10px 10px;
+    margin: 15px 0px 15px 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
 .container_Boton {
     margin: 0 auto;
 }
